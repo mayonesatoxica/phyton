@@ -21,3 +21,9 @@ while contador < 5:
         break
     
     print('contador')
+    
+    contador = 0
+    while contador <5:
+        contador +=1
+        continue
+    print(contador)
